@@ -1,8 +1,12 @@
 # ds-1011-nlp
 HW1
+
 #1 Bag of Word Model
+
 The bag of word model sums all of the words’ embedding in an example and then gets the average which is the vector’s representation of the example. Finally, the vector is converted to a scalar and scale it between 0 and 1 by sigmoid function representing the possibility that the example is positive.
+
 #2 Implementation
+
 Since the task was to do hyper-parameter search, I built a class which integrated the construction of vocabulary, model training, model selection, and model evaluation. Basically, the class did the following 6 tasks.
 • Use torchtext.Field to process text data, and build vocabulary and word look-up table.
 • Use torchtext.data.TabularDataset to load data from csv file and split the data into train, validation and test set. The number of training examples is equal to 20000, validation examples is 5000, and the test examples is 25000. Since the split function use stratified sampling, each example set contains approximately the same percentage of samples of each target class as the complete set. In this task, the proportion of positive examples and negative examples is equal in train, validation, and test examples.

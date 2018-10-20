@@ -13,7 +13,8 @@ Since the task was to do hyper-parameter search, I built a class which integrate
 • Use torchtext.data.BucketIterator to define an iterator that loads batches of data from a dataset. The benefit of BucketIterator is that this method can batch examples of similar lengths together instead of setting a fix length for all of the examples.<br />
 • Train the model on training dataset. For each epoch, the model will be evaluated on validation examples in term of accuracy rate and AUC. We will keep track of the model having the best accuracy rate on validation examples. And if the best accuracy rate doesn’t improve in the last several epochs, the training process will stop. And draw the training curve showing how the accuracy rate is changed after each epoch for training examples and validation examples respectively.<br />
 • Apply the best model in terms of accuracy rate on validation examples to test examples, and calculate the accuracy rate and draw the confusion matrix.<br />
-• Show 3 correct and 3 incorrect predictions of the model on the validation set. There are total 9 hyperparameters for the class:<br />
+• Show 3 correct and 3 incorrect predictions of the model on the validation set. <br />
+There are total 9 hyperparameters for the class:<br />
 • n gram: an N-token sequence of words<br />
 • min freq: the minimum frequency needed to include a token in the vocabulary. This parameter is used<br />
 to control vocabulary size<br />

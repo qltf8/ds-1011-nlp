@@ -1,5 +1,5 @@
 # ds-1011-nlp
-HW1
+HW2
 
 #1 RNN/CNN-based Natural Language Inference
 

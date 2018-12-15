@@ -1,1 +1,11 @@
-1
+1 demo_note_book/: 
+                  show each model performance in validtion and testing dataset in terms of bleu
+                  sampled translated sentence and draw the heatmap for the alignment
+ 
+
+2. demo_note_book/model/:
+                  the python script for all of the model, and beam search, and ensemble modeling
+3. training_code/:
+                  the code run on the prince to trained the models and the output
+4. model_prediction_text/:
+                  the translated sentence by all of the models compared with the corresponding reference.

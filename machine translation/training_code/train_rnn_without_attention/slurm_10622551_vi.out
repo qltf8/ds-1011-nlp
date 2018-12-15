@@ -1,0 +1,53 @@
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543807819_8527215/predict.txt | sacrebleu ../eval/1543807819_8527215/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 9.8 39.4/14.1/6.4/3.2 (BP = 0.954 ratio = 0.955 hyp_len = 26990 ref_len = 28275)\n')
+epoch:  0  the blue score on validation dataset is :  9.8
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543825553_2853756/predict.txt | sacrebleu ../eval/1543825553_2853756/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 11.4 41.0/15.7/7.6/3.8 (BP = 0.976 ratio = 0.976 hyp_len = 27595 ref_len = 28275)\n')
+epoch:  1  the blue score on validation dataset is :  11.4
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543843310_1303928/predict.txt | sacrebleu ../eval/1543843310_1303928/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 12.3 42.0/16.4/8.0/4.2 (BP = 1.000 ratio = 1.006 hyp_len = 28435 ref_len = 28275)\n')
+epoch:  2  the blue score on validation dataset is :  12.3
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543861088_891356/predict.txt | sacrebleu ../eval/1543861088_891356/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 11.8 42.9/16.7/8.1/4.2 (BP = 0.948 ratio = 0.949 hyp_len = 26847 ref_len = 28275)\n')
+epoch:  3  the blue score on validation dataset is :  11.8
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543878855_77685/predict.txt | sacrebleu ../eval/1543878855_77685/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 12.2 44.2/17.1/8.3/4.5 (BP = 0.945 ratio = 0.947 hyp_len = 26763 ref_len = 28275)\n')
+epoch:  4  the blue score on validation dataset is :  12.2
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543896644_0989003/predict.txt | sacrebleu ../eval/1543896644_0989003/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 12.2 43.1/16.5/8.0/4.2 (BP = 0.977 ratio = 0.977 hyp_len = 27629 ref_len = 28275)\n')
+epoch:  5  the blue score on validation dataset is :  12.2
+--------------------------------------
+./train_better_teacher.py:88: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters().
+  output, (h_n, c_n) = self.lstm(X_data, (h, c))
+./train_better_teacher.py:159: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters().
+  output, (h_t, c_t) = self.lstm(input_vector,(hidden_vector, cell_vector))
+Traceback (most recent call last):
+  File "./train_better_teacher.py", line 466, in <module>
+    train(encoder, decoder, optimizer, train_vi_en_iter, teacher_forcing_ratio)
+  File "./train_better_teacher.py", line 215, in train
+    prob, h_t, c_t = decoder(target_word, h_t, c_t, output, is_init)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "./train_better_teacher.py", line 159, in forward
+    output, (h_t, c_t) = self.lstm(input_vector,(hidden_vector, cell_vector))
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 192, in forward
+    output, hidden = func(input, self.all_weights, hx, batch_sizes)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/_functions/rnn.py", line 324, in forward
+    return func(input, *fargs, **fkwargs)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/_functions/rnn.py", line 288, in forward
+    dropout_ts)
+RuntimeError: CUDA error: out of memory

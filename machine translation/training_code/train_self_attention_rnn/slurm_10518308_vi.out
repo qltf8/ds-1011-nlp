@@ -1,0 +1,66 @@
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543584514_9446373/predict.txt | sacrebleu ../eval/1543584514_9446373/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.7 43.7/18.2/9.0/4.8 (BP = 1.000 ratio = 1.002 hyp_len = 28320 ref_len = 28275)\n')
+epoch:  0  the blue score on validation dataset is :  13.7
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543607682_123407/predict.txt | sacrebleu ../eval/1543607682_123407/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 14.9 49.0/21.8/11.3/6.2 (BP = 0.902 ratio = 0.906 hyp_len = 25626 ref_len = 28275)\n')
+epoch:  1  the blue score on validation dataset is :  14.9
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543630824_6631048/predict.txt | sacrebleu ../eval/1543630824_6631048/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.4 50.7/23.2/12.6/7.3 (BP = 0.962 ratio = 0.963 hyp_len = 27220 ref_len = 28275)\n')
+epoch:  2  the blue score on validation dataset is :  17.4
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543653976_9059145/predict.txt | sacrebleu ../eval/1543653976_9059145/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 16.5 52.4/24.2/13.1/7.5 (BP = 0.877 ratio = 0.884 hyp_len = 24994 ref_len = 28275)\n')
+epoch:  3  the blue score on validation dataset is :  16.5
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543677122_3486488/predict.txt | sacrebleu ../eval/1543677122_3486488/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.2 53.4/25.0/13.8/8.0 (BP = 0.877 ratio = 0.884 hyp_len = 24995 ref_len = 28275)\n')
+epoch:  4  the blue score on validation dataset is :  17.2
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543700147_6153123/predict.txt | sacrebleu ../eval/1543700147_6153123/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.8 51.9/24.2/13.3/7.7 (BP = 0.942 ratio = 0.944 hyp_len = 26683 ref_len = 28275)\n')
+epoch:  5  the blue score on validation dataset is :  17.8
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543723173_2207503/predict.txt | sacrebleu ../eval/1543723173_2207503/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.7 51.6/23.9/12.9/7.4 (BP = 0.954 ratio = 0.955 hyp_len = 26998 ref_len = 28275)\n')
+epoch:  6  the blue score on validation dataset is :  17.7
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543745714_697544/predict.txt | sacrebleu ../eval/1543745714_697544/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.4 52.3/24.2/13.1/7.7 (BP = 0.920 ratio = 0.923 hyp_len = 26099 ref_len = 28275)\n')
+epoch:  7  the blue score on validation dataset is :  17.4
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543768086_3428807/predict.txt | sacrebleu ../eval/1543768086_3428807/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 17.5 52.4/24.4/13.3/7.8 (BP = 0.918 ratio = 0.921 hyp_len = 26048 ref_len = 28275)\n')
+epoch:  8  the blue score on validation dataset is :  17.5
+--------------------------------------
+./train.py:85: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters().
+  output, h_t = self.gru(input_vector,hidden_vector)
+Traceback (most recent call last):
+  File "./train.py", line 521, in <module>
+    train(encoder, decoder, optimizer, train_vi_en_iter, teacher_forcing_ratio)
+  File "./train.py", line 301, in train
+    prob, h_t = decoder(target_word, h_t, output, is_init)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "./train.py", line 85, in forward
+    output, h_t = self.gru(input_vector,hidden_vector)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 192, in forward
+    output, hidden = func(input, self.all_weights, hx, batch_sizes)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/_functions/rnn.py", line 324, in forward
+    return func(input, *fargs, **fkwargs)
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/_functions/rnn.py", line 288, in forward
+    dropout_ts)
+RuntimeError: CUDA error: out of memory

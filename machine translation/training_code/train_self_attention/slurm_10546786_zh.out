@@ -1,0 +1,53 @@
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543637957_2578127/predict.txt | sacrebleu ../eval/1543637957_2578127/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 10.6 42.7/16.5/8.0/4.1 (BP = 0.858 ratio = 0.868 hyp_len = 25372 ref_len = 29243)\n')
+epoch:  0  the blue score on validation dataset is :  10.6
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543642719_070398/predict.txt | sacrebleu ../eval/1543642719_070398/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 12.1 43.1/17.5/8.5/4.5 (BP = 0.926 ratio = 0.929 hyp_len = 27161 ref_len = 29243)\n')
+epoch:  1  the blue score on validation dataset is :  12.1
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543647503_213671/predict.txt | sacrebleu ../eval/1543647503_213671/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.3 47.0/19.6/9.8/5.2 (BP = 0.903 ratio = 0.908 hyp_len = 26542 ref_len = 29243)\n')
+epoch:  2  the blue score on validation dataset is :  13.3
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543652286_235598/predict.txt | sacrebleu ../eval/1543652286_235598/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.1 47.8/20.1/10.1/5.5 (BP = 0.865 ratio = 0.873 hyp_len = 25533 ref_len = 29243)\n')
+epoch:  3  the blue score on validation dataset is :  13.1
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543656997_0527894/predict.txt | sacrebleu ../eval/1543656997_0527894/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.8 47.7/20.1/10.5/5.8 (BP = 0.886 ratio = 0.892 hyp_len = 26096 ref_len = 29243)\n')
+epoch:  4  the blue score on validation dataset is :  13.8
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543661755_9489474/predict.txt | sacrebleu ../eval/1543661755_9489474/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.2 48.6/20.4/10.4/5.6 (BP = 0.855 ratio = 0.865 hyp_len = 25283 ref_len = 29243)\n')
+epoch:  5  the blue score on validation dataset is :  13.2
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543666501_4240494/predict.txt | sacrebleu ../eval/1543666501_4240494/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.2 47.8/19.8/10.0/5.4 (BP = 0.878 ratio = 0.884 hyp_len = 25865 ref_len = 29243)\n')
+epoch:  6  the blue score on validation dataset is :  13.2
+sacreBLEU: That's 100 lines that end in a tokenized period ('.')
+sacreBLEU: It looks like you forgot to detokenize your test data, which may hurt your score.
+sacreBLEU: If you insist your data is detokenized, or don't care, you can suppress this message with '--force'.
+CompletedProcess(args='cat ../eval/1543671257_922521/predict.txt | sacrebleu ../eval/1543671257_922521/target_file_name.txt', returncode=0, stdout=b'BLEU+case.mixed+numrefs.1+smooth.exp+tok.13a+version.1.2.12 = 13.5 48.0/19.8/10.1/5.7 (BP = 0.884 ratio = 0.890 hyp_len = 26037 ref_len = 29243)\n')
+epoch:  7  the blue score on validation dataset is :  13.5
+--------------------------------------
+Traceback (most recent call last):
+  File "./train_better.py", line 534, in <module>
+    run_epoch(data_iter=train_vi_en_iter, model=model, loss_compute=SimpleLossCompute(model.generator, criterion), optimizer = optimizer)
+  File "./train_better.py", line 455, in run_epoch
+    processed_loss += loss_compute(out, target_true_word_index)
+  File "./train_better.py", line 283, in __call__
+    y.contiguous().view(-1))
+  File "/home/ql819/pytorch-gpu/py3.6.3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "./train_better.py", line 262, in forward
+    assert x.size(1) == self.size
+AssertionError
